@@ -2473,8 +2473,10 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/oplus/ivan/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libaiselector.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libdpframework.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libmtk_drvb.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libneuron_platform.vpu.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libnir_neon_driver.so \
     vendor/oplus/ivan/proprietary/vendor/lib/mt6877/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libpq_prot.so \
     vendor/oplus/ivan/proprietary/vendor/lib/ov02b10_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw_IdxMgr.so \
@@ -4056,8 +4058,14 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libaiselector.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libdpframework.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libmcv_runtime.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libmcv_runtime.mtk.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libmdla_ut.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libmdla_ut.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libmtk_drvb.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_platform.vpu.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libneuron_runtime.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_runtime.5.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_runtime.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libnir_neon_driver.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mt6877/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libpq_prot.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
