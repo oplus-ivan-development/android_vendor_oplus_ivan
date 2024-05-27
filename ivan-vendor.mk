@@ -4203,7 +4203,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_hwcomposer \
-    manifest_media_c2_V1_1_default \
     oplus_wifi_supplicant_device \
     manifest_oplusSensor \
     manifest_oplus_charger \
