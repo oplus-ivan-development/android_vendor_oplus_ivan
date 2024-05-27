@@ -2443,6 +2443,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
     vendor/oplus/ivan/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
     vendor/oplus/ivan/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/oplus/ivan/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
@@ -2509,6 +2510,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
     vendor/oplus/ivan/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so \
@@ -3799,6 +3801,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.vhdr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.3dnr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.aibc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.aibc.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.aihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.aihdr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.ainr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.ainr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.dngop.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.eis.so \
@@ -3809,6 +3812,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lmv.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lsc.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.mfnr.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.n3d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.n3d.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.nr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.platform.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libcamalgo.platform2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.platform2.so \
@@ -3867,6 +3871,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.hal.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_3dnr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_eis.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_fsc.so \
@@ -3939,6 +3944,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.atmseventmgr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.eventcallback.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam.featurepipe.capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.capture.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam.featurepipe.depthmap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.depthmap.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.streaming.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam.featurepipe.vsdof_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.vsdof_util.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.logicalmodule.so \
@@ -3974,6 +3980,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam_modulefactory_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_drv.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam_modulefactory_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_utils.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulehelper.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam_owe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_owe.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipeline.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam_pipeline_fbm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipeline_fbm.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmtkcam_pipelinemodel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel.so \
@@ -4039,6 +4046,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqpconfig.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libprc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprc.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
