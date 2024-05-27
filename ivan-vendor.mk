@@ -355,6 +355,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn553_fw.so \
     vendor/oplus/ivan/proprietary/odm/lib/libpn557_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn557_fw.so \
     vendor/oplus/ivan/proprietary/odm/lib/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib/libpnscr2.so \
+    vendor/oplus/ivan/proprietary/odm/lib/librpc.so:$(TARGET_COPY_OUT_ODM)/lib/librpc.so \
     vendor/oplus/ivan/proprietary/odm/lib/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib/librpmbengclient.so \
     vendor/oplus/ivan/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/oplus/ivan/proprietary/odm/lib/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib/libstblur_api.so \
@@ -412,6 +413,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib64/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib64/libpnscr2.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libremosaic_wrapper.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_ODM)/lib64/libremosaiclib.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/librpc.so:$(TARGET_COPY_OUT_ODM)/lib64/librpc.so \
     vendor/oplus/ivan/proprietary/odm/lib64/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib64/librpmbengclient.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_api.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib64/libtflite_mtk_static.so \
