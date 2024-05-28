@@ -4198,6 +4198,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
     gnss-mtk \
+    manifest_media_c2_V1_1_default \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
     manifest_android.hardware.drm@1.4-service.clearkey \
