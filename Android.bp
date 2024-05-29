@@ -36,7 +36,7 @@ android_app_import {
 android_app_import {
 	name: "HotwordEnrollmentOKGoogleRISCV",
 	owner: "oplus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleRISCV.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleRICSV/HotwordEnrollmentOKGoogleRISCV.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
