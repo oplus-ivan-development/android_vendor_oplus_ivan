@@ -323,20 +323,38 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/init.oplus.seccommon.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.seccommon.rc \
     vendor/oplus/ivan/proprietary/odm/lib/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.capacitive.hal.so \
     vendor/oplus/ivan/proprietary/odm/lib/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.hal.so \
+    vendor/oplus/ivan/proprietary/odm/lib/ese_client.so:$(TARGET_COPY_OUT_ODM)/lib/ese_client.so \
+    vendor/oplus/ivan/proprietary/odm/lib/ese_spi_nxp_nq330.so:$(TARGET_COPY_OUT_ODM)/lib/ese_spi_nxp_nq330.so \
+    vendor/oplus/ivan/proprietary/odm/lib/hal_libnfc.so:$(TARGET_COPY_OUT_ODM)/lib/hal_libnfc.so \
     vendor/oplus/ivan/proprietary/odm/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G2.default.so \
     vendor/oplus/ivan/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
     vendor/oplus/ivan/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
     vendor/oplus/ivan/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/oplus/ivan/proprietary/odm/lib/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G7.default.so \
     vendor/oplus/ivan/proprietary/odm/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
+    vendor/oplus/ivan/proprietary/odm/lib/lib_aurisys_lvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/lib_aurisys_lvimfs.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_distortion_correction.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_frc.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_frc.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_hdr_couple_api_v4.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_hdr_couple_api_v4.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_hdr_denoise_api.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_high_dynamic_range.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_high_dynamic_range_couple_v4.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_high_dynamic_range_couple_v4.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_lensstaindetection.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_low_light_hdr.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_low_light_hdr_for_neon.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_low_light_hdr_for_neon.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_portrait_super_night_raw.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_psn_mtk_apu.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_psn_mtk_apu.so \
     vendor/oplus/ivan/proprietary/odm/lib/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib/libAlgoProcess.so \
     vendor/oplus/ivan/proprietary/odm/lib/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumBokeh.so \
     vendor/oplus/ivan/proprietary/odm/lib/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumVideoBase.so \
     vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_scbokeh_video.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_smart_denoise.so \
     vendor/oplus/ivan/proprietary/odm/lib/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib/libavcodec.so \
     vendor/oplus/ivan/proprietary/odm/lib/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib/libavformat.so \
     vendor/oplus/ivan/proprietary/odm/lib/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib/libavutil.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib/libbsproxy.so \
     vendor/oplus/ivan/proprietary/odm/lib/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib/libdav1d.so.4 \
+    vendor/oplus/ivan/proprietary/odm/lib/libdla_loader.so:$(TARGET_COPY_OUT_ODM)/lib/libdla_loader.so \
     vendor/oplus/ivan/proprietary/odm/lib/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib/libdpservice.so \
     vendor/oplus/ivan/proprietary/odm/lib/libffmpeg_omx.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_omx.so \
     vendor/oplus/ivan/proprietary/odm/lib/libffmpeg_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_utils.so \
@@ -348,6 +366,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib/libmpbase.so \
     vendor/oplus/ivan/proprietary/odm/lib/libnp-loader.so:$(TARGET_COPY_OUT_ODM)/lib/libnp-loader.so \
     vendor/oplus/ivan/proprietary/odm/lib/libnxprecord.so:$(TARGET_COPY_OUT_ODM)/lib/libnxprecord.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libnxpsmartpaparser.so:$(TARGET_COPY_OUT_ODM)/lib/libnxpsmartpaparser.so \
     vendor/oplus/ivan/proprietary/odm/lib/libnxpspeech.so:$(TARGET_COPY_OUT_ODM)/lib/libnxpspeech.so \
     vendor/oplus/ivan/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/oplus/ivan/proprietary/odm/lib/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_ODM)/lib/liboplus_platform_hwi.so \
@@ -356,6 +375,12 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib/libpn557_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn557_fw.so \
     vendor/oplus/ivan/proprietary/odm/lib/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib/libpnscr2.so \
     vendor/oplus/ivan/proprietary/odm/lib/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib/librpmbengclient.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib/libswresample.so \
+    vendor/oplus/ivan/proprietary/odm/lib/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib/libswscale.so \
+    vendor/oplus/ivan/proprietary/odm/lib/nfc_nci.pn54x.default.so:$(TARGET_COPY_OUT_ODM)/lib/nfc_nci.pn54x.default.so \
+    vendor/oplus/ivan/proprietary/odm/lib/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.nxp.eventprocessor@1.0.so \
+    vendor/oplus/ivan/proprietary/odm/lib/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.nxp.nxpnfc@1.0.so \
+    vendor/oplus/ivan/proprietary/odm/lib/vendor.nxpnq330.nxpese@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.nxpnq330.nxpese@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/oplus/ivan/proprietary/odm/lib/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib/libstblur_api.so \
     vendor/oplus/ivan/proprietary/odm/lib/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib/libtflite_mtk_static.so \
@@ -375,6 +400,10 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.wifi@1.1.so \
     vendor/oplus/ivan/proprietary/odm/lib64/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.capacitive.hal.so \
     vendor/oplus/ivan/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/ese_client.so:$(TARGET_COPY_OUT_ODM)/lib64/ese_client.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/ese_spi_nxp_nq330.so:$(TARGET_COPY_OUT_ODM)/lib64/ese_spi_nxp_nq330.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_ODM)/lib64/hal_libnfc.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.focaltech.default.so \
     vendor/oplus/ivan/proprietary/odm/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G2.default.so \
     vendor/oplus/ivan/proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G3.default.so \
     vendor/oplus/ivan/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
@@ -385,16 +414,47 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib64/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokeh.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumVideoBase.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libadsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libadsprpc.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_aicolor_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_image.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_video.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_bokeh_api.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_bokeh_frt_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_bokeh_frt_api.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_refocus_frt_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_frt_image.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_refocus_frt_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_frt_preview.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_left.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_preview.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_uw.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_wt_calibration.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_wt_calibration.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_dualcam_wt_verification.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_wt_verification.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_frc.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_frc.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_hdr_couple_api_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api_v4.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_denoise_api.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple_v4.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_lensstaindetection.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_low_light_hdr_for_neon.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr_for_neon.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_portrait_super_night_raw.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_preview_antibanding.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_preview_antibanding.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_psn_mtk_apu.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_psn_mtk_apu.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_scbokeh_video.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_sn_mtk_apu.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_sn_mtk_apu.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libarcsoft_videoautozoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_videoautozoom.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib64/libavcodec.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib64/libavformat.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libavutil.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libcalibverifyW_T.so:$(TARGET_COPY_OUT_ODM)/lib64/libcalibverifyW_T.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libcdsprpc.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib64/libdav1d.so.4 \
+    vendor/oplus/ivan/proprietary/odm/lib64/libdla_loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libdla_loader.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libdla_loader_ins.so:$(TARGET_COPY_OUT_ODM)/lib64/libdla_loader_ins.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib64/libdpservice.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libffmpeg_utils.so:$(TARGET_COPY_OUT_ODM)/lib64/libffmpeg_utils.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libegis_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libegis_hal.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G2.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
@@ -405,6 +465,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_ODM)/lib64/libneuron_runtime.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libnxprecord.so:$(TARGET_COPY_OUT_ODM)/lib64/libnxprecord.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libnxpsmartpaparser.so:$(TARGET_COPY_OUT_ODM)/lib64/libnxpsmartpaparser.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libnxpspeech.so:$(TARGET_COPY_OUT_ODM)/lib64/libnxpspeech.so \
     vendor/oplus/ivan/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
     vendor/oplus/ivan/proprietary/odm/lib64/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplus_platform_hwi.so \
@@ -413,10 +474,16 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libremosaic_wrapper.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_ODM)/lib64/libremosaiclib.so \
     vendor/oplus/ivan/proprietary/odm/lib64/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib64/librpmbengclient.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib64/libswresample.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib64/libswscale.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/nfc_nci.pn54x.default.so:$(TARGET_COPY_OUT_ODM)/lib64/nfc_nci.pn54x.default.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_api.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib64/libtflite_mtk_static.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libtrustonic_keybox_ca.so \
     vendor/oplus/ivan/proprietary/odm/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus.sensors.ssc.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.nxp.eventprocessor@1.0.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.nxp.nxpnfc@1.0.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/vendor.nxpnq330.nxpese@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.nxpnq330.nxpese@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.charger@1.0.so \
@@ -2186,10 +2253,15 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_moon_model.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_p1ggm.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libainrcore.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiselector.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaispq.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalacdec_mtk.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun_model.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libappgamepq.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw_batch.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys_edma.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn.so \
@@ -2244,6 +2316,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorprovider.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.vhdr.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.3dnr.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.aibc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.aibc.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.aihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.aihdr.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.ainr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.ainr.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.dngop.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.eis.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fdft.so \
@@ -2253,6 +2328,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lmv.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lsc.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.mfnr.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.n3d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.n3d.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.nr.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamalgo.platform2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform2.so \
@@ -2269,6 +2345,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamera.customaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera.customaf.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamera.customawb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera.customawb.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamera.customflk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera.customflk.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libcamera_core_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_core_hwi.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk_vendor.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcameracustom.camera.3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.camera.3a.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libcameracustom.camera.isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.camera.isp.so \
@@ -2307,6 +2384,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffecthal.base.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.face.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.stereo.provider.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.vsdof.hal.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_3dnr.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_eis.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_fsc.so \
@@ -2333,6 +2411,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrvideo.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libheichal.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfmanager.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfmanagerwrapper.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libhwconfigurationutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwconfigurationutil.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicd_decoder.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libimagebuffer_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagebuffer_wrapper.so \
@@ -2358,6 +2438,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblpcnr.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib/libm4u.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfllcore.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
@@ -2394,6 +2475,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metastore.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmtkcam_mfb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_mfb.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulehelper.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libmtkcam_owe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_owe.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmtkcam_pipeline_fbm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline_fbm.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libmtkcam_pipelinemodel_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipelinemodel_isp.so \
@@ -2641,6 +2723,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.n3d3a.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/lib3a.sensors.color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.sensors.color.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/lib3a.sensors.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.sensors.flicker.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAVCSecureVencCA.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_gc02m1bmipimono21081_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc02m1bmipimono21081_E2EHDR_Preview.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_gc02m1bmipimono21081_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc02m1bmipimono21081_E2EHDR_Video.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libCamera_gc02m1bmipimono21081_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc02m1bmipimono21081_Face_Capture.so \
@@ -3738,6 +3821,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappgamepq.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw_batch.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys_edma.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn.so \
@@ -3923,6 +4007,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libm4u.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmidasserviceintf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmidasserviceintf.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
