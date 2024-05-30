@@ -94,6 +94,12 @@ dex_import {
 }
 
 dex_import {
+	name: "mediatek-services",
+	owner: "oneplus",
+	jars: ["proprietary/framework/mediatek-services.jar"],
+}
+
+dex_import {
 	name: "mediatek-telecom-common",
 	owner: "oplus",
 	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
