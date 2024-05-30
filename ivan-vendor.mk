@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/bin/mtkftm:$(TARGET_COPY_OUT_ODM)/bin/mtkftm \
     vendor/oplus/ivan/proprietary/odm/bin/rpmbengclient_test:$(TARGET_COPY_OUT_ODM)/bin/rpmbengclient_test \
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
-
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions_vext.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/BtInfo_AudioParam.xml \
