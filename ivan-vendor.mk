@@ -2254,7 +2254,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_p1ggm.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libainrcore.so \
-    vendor/oplus/ivan/proprietary/vendor/lib/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiselector.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaispq.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalacdec_mtk.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun_model.so \
@@ -3812,6 +3811,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libaibc_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libaibc_tuning_p2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p2.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libaibc_tuning_p3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p3.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon_model.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_p1ggm.so \
