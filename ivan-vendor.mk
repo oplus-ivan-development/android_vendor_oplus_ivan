@@ -2254,6 +2254,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_p1ggm.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libainrcore.so \
+    vendor/oplus/ivan/proprietary/vendor/lib/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiselector.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaispq.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalacdec_mtk.so \
     vendor/oplus/ivan/proprietary/vendor/lib/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun_model.so \
