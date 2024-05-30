@@ -4276,6 +4276,7 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     mediatek-wfo-legacy \
+    mediatek-services \
     oplus-framework-telephony \
     oplus-framework \
     com.android.hotwordenrollment.common.util \
