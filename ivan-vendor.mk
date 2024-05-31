@@ -4389,7 +4389,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-mediatek \
     android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
-    android.hardware.camera \
     gnss-mtk \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
