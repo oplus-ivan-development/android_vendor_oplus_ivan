@@ -258,6 +258,11 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/audio/nxp/VoIP_usbmic_usb_game.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/VoIP_usbmic_usb_game.bin \
     vendor/oplus/ivan/proprietary/odm/etc/audio/oplus_audio_features.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/oplus_audio_features.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/test_path/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/mixer_paths.xml \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/smartpa_param/smartpa_pm.txt:$(TARGET_COPY_OUT_ODM)/etc/smartpa_param/smartpa_pm.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/smartpa_param/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/etc/smartpa_param/tfa98xx.cnt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/smartpa_param/tfa98xx_music.bin:$(TARGET_COPY_OUT_ODM)/etc/smartpa_param/tfa98xx_music.bin \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/smartpa_param/tfa98xx_ringtone.bin:$(TARGET_COPY_OUT_ODM)/etc/smartpa_param/tfa98xx_ringtone.bin \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/smartpa_param/tfa98xx_voice.bin:$(TARGET_COPY_OUT_ODM)/etc/smartpa_param/tfa98xx_voice.bin \
     vendor/oplus/ivan/proprietary/odm/etc/bin/gauge_authenticate:$(TARGET_COPY_OUT_ODM)/etc/bin/gauge_authenticate \
     vendor/oplus/ivan/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/oplus/ivan/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
