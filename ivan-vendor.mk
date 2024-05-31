@@ -167,7 +167,37 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Volume_AudioParam.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Volume_ParamUnitDesc.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/aurisys_config/aurisys_config.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config/aurisys_config.xml \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/aurisys_config_hifi3/CMCC/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config_hifi3/CMCC/aurisys_config_hifi3.xml \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/aurisys_config_hifi3/CT/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config_hifi3/CT/aurisys_config_hifi3.xml \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/aurisys_config_hifi3/CTA/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config_hifi3/CTA/aurisys_config_hifi3.xml \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/aurisys_config_hifi3/CU/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config_hifi3/CU/aurisys_config_hifi3.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/aurisys_config_hifi3/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config_hifi3/aurisys_config_hifi3.xml \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVACFS_Configuration.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Calibration_2mic.dat \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
+    vendor/oplus/ivan/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
     vendor/oplus/ivan/proprietary/odm/etc/audio/nxp/Phone_bt_bt.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_bt_bt.bin \
     vendor/oplus/ivan/proprietary/odm/etc/audio/nxp/Phone_hsmic_hs.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_hsmic_hs.bin \
     vendor/oplus/ivan/proprietary/odm/etc/audio/nxp/Phone_mic_hp.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_mic_hp.bin \
@@ -3881,6 +3911,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaibc_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaibc_tuning_p2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p2.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaibc_tuning_p3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p3.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libaidepth_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidepth_tuning.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon_model.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_p1ggm.so \
