@@ -4232,6 +4232,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
+    vendor/oplus/ivan/proprietary/vendor/lib64/libneuron_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_wrapper.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver_ndk.mtk.vndk.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
