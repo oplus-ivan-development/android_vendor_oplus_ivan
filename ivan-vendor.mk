@@ -264,10 +264,27 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/audio/oplus_audio_features.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/oplus_audio_features.xml \
     vendor/oplus/ivan/proprietary/odm/etc/audio/test_path/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/mixer_paths.xml \
     vendor/oplus/ivan/proprietary/odm/etc/bin/gauge_authenticate:$(TARGET_COPY_OUT_ODM)/etc/bin/gauge_authenticate \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/BHKHBOMOJEAFOEOJG1JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ01:$(TARGET_COPY_OUT_ODM)/etc/camera/BHKHBOMOJEAFOEOJG1JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ01 \
     vendor/oplus/ivan/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/oplus/ivan/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/CameraHalconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/CameraHalconfig.json \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/gc02m1b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/gc02m1b \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/imx355:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx355 \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx471 \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/ov02b10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b10 \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov64b \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oplus/ivan/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
     vendor/oplus/ivan/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/model/license.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/model/license.lic \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
@@ -291,7 +308,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_6:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_6 \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_7 \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
+    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9
     vendor/oplus/ivan/proprietary/odm/etc/ecc_list.xml:$(TARGET_COPY_OUT_ODM)/etc/ecc_list.xml \
     vendor/oplus/ivan/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
     vendor/oplus/ivan/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
@@ -554,6 +571,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib64/libgf_hal_G7.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G7.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libhwm-oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwm-oplus.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_ODM)/lib64/libneuron_runtime.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libnp-loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libnp-loader.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libocam_common.so:$(TARGET_COPY_OUT_ODM)/lib64/libocam_common.so \
     vendor/oplus/ivan/proprietary/odm/lib64/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-body-detection.so \
