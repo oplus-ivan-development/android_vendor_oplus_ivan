@@ -308,7 +308,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_6:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_6 \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_7 \
     vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
-    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9
+    vendor/oplus/ivan/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/oplus/ivan/proprietary/odm/etc/ecc_list.xml:$(TARGET_COPY_OUT_ODM)/etc/ecc_list.xml \
     vendor/oplus/ivan/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
     vendor/oplus/ivan/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
