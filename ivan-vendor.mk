@@ -484,7 +484,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.nxp.nxpnfc@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib/vendor.nxpnq330.nxpese@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.nxpnq330.nxpese@1.0.so \
     vendor/oplus/ivan/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
-    vendor/oplus/ivan/proprietary/odm/lib64/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib64/libpnscr2.so
     vendor/oplus/ivan/proprietary/odm/lib/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib/libstblur_api.so \
     vendor/oplus/ivan/proprietary/odm/lib/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib/libtflite_mtk_static.so \
     vendor/oplus/ivan/proprietary/odm/lib/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libtrustonic_keybox_ca.so \
