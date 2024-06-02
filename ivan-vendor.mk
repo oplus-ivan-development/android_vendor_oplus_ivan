@@ -4389,7 +4389,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libwifi-hal-mtk \
-    ImsService \
     HotwordEnrollmentOKGoogleRISCV \
     mediatek-common \
     mediatek-framework \
