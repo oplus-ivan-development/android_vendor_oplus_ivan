@@ -4402,6 +4402,7 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
+    ImsService \
     mediatek-wfo-legacy \
     oplus-framework-telephony \
     oplus-framework \
