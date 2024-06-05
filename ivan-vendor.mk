@@ -314,8 +314,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
     vendor/oplus/ivan/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/oplus/ivan/proprietary/odm/etc/init/init.oplus.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.reserve.rc \
-    vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.nfc@1.0.so
-    vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.nfc@1.0.so
+    vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.nfc@1.0.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.nfc@1.0.so \
     vendor/oplus/ivan/proprietary/odm/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.nfc@1.2-service \
     vendor/oplus/ivan/proprietary/odm/bin/hw/vendor.oplus.hardware.nfc@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.nfc@1.0-service \
     vendor/oplus/ivan/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
@@ -4441,6 +4441,8 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-mediatek \
     android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
+    android.hardware.nfc@1.2-service \
+    vendor.oplus.hardware.nfc@1.0-service \
     gnss-mtk \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
