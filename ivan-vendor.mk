@@ -314,15 +314,46 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
     vendor/oplus/ivan/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/oplus/ivan/proprietary/odm/etc/init/init.oplus.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.reserve.rc \
+    vendor/oplus/ivan/proprietary/odm/lib/vendor.oplus.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.nfc@1.0.so
+    vendor/oplus/ivan/proprietary/odm/lib64/vendor.oplus.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.nfc@1.0.so
+    vendor/oplus/ivan/proprietary/odm/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.nfc@1.2-service \
+    vendor/oplus/ivan/proprietary/odm/bin/hw/vendor.oplus.hardware.nfc@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.nfc@1.0-service \
     vendor/oplus/ivan/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
+    vendor/oplus/ivan/proprietary/odm/etc/init/vendor.oplus.hardware.nfc@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.nfc@1.0-service.rc \
     vendor/oplus/ivan/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-mtp-SN100.conf_20355:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-mtp-SN100.conf_20355 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nci.conf_20355:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_20355 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nci.conf_212A1:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_212A1 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nci.conf_21851:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_21851 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nci.conf_21876:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nci.conf_21876 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nxp.conf_212A1:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp.conf_212A1 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nxp.conf_21851:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp.conf_21851 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nxp.conf_21876:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp.conf_21876 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nxp_RF.conf_212A1:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp_RF.conf_212A1 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nxp_RF.conf_21851:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp_RF.conf_21851 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/libnfc-nxp_RF.conf_21876:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-nxp_RF.conf_21876 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/nfc_conf_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_conf_ref \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/nfc_fw_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_fw_ref \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/pnscr/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/nfc/pnscr/libnfc-nxp-pnscr.conf \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/pnscr/sn100u_pnx_current.pnscr:$(TARGET_COPY_OUT_ODM)/etc/nfc/pnscr/sn100u_pnx_current.pnscr \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/pnscr/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_ODM)/etc/nfc/pnscr/sn100u_pnx_ese_3.pnscr \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_53:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_53 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_57 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_60:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_60 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_65:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_65 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_66:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_66 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_68 \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/st21nfc_fw.bin_st21h:$(TARGET_COPY_OUT_ODM)/etc/nfc/st21nfc_fw.bin_st21h \
+    vendor/oplus/ivan/proprietary/odm/etc/nfc/st21nfc_fw7.bin_st21h:$(TARGET_COPY_OUT_ODM)/etc/nfc/st21nfc_fw7.bin_st21h \
+    vendor/oplus/ivan/proprietary/odm/etc/permissions/com.oplus.nfc_feature.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/com.oplus.nfc_feature.xml \
+    vendor/oplus/ivan/proprietary/odm/lib64/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.nfc@1.0.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.nfc@1.1.so \
+    vendor/oplus/ivan/proprietary/odm/lib64/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.nfc@1.2.so \
     vendor/oplus/ivan/proprietary/odm/etc/init/init.vendor.oplus.connectivity.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.vendor.oplus.connectivity.rc \
     vendor/oplus/ivan/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oplus/ivan/proprietary/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger@1.0-service.rc \
     vendor/oplus/ivan/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/oplus/ivan/proprietary/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc \
-    vendor/oplus/ivan/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/oplus/ivan/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/oplus/ivan/proprietary/odm/etc/powerhal/power_app_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/powerhal/power_app_cfg.xml \
     vendor/oplus/ivan/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oplus/ivan/proprietary/odm/etc/temperature_profile/sys_high_temp_protect_21876.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_high_temp_protect_21876.xml \
