@@ -4442,7 +4442,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
     android.hardware.nfc@1.2-service \
-    vendor.oplus.hardware.nfc@1.0-service \
     gnss-mtk \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
