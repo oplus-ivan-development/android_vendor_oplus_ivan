@@ -4434,7 +4434,7 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     ImsService \
-    com.android.nfc_extras
+    com.android.nfc_extras \
     mediatek-wfo-legacy \
     oplus-framework-telephony \
     oplus-framework \
