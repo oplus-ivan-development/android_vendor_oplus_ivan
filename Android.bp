@@ -46,6 +46,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "com.android.nfc_extras",
+	owner: "oplus",
+	jars: ["proprietary/system/framework/com.android.nfc_extras.jar"],
+}
+
+dex_import {
 	name: "mediatek-common",
 	owner: "oplus",
 	jars: ["proprietary/framework/mediatek-common.jar"],
