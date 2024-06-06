@@ -346,9 +346,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/odm/etc/nfc/st21nfc_fw.bin_st21h:$(TARGET_COPY_OUT_ODM)/etc/nfc/st21nfc_fw.bin_st21h \
     vendor/oplus/ivan/proprietary/odm/etc/nfc/st21nfc_fw7.bin_st21h:$(TARGET_COPY_OUT_ODM)/etc/nfc/st21nfc_fw7.bin_st21h \
     vendor/oplus/ivan/proprietary/odm/etc/permissions/com.oplus.nfc_feature.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/com.oplus.nfc_feature.xml \
-    vendor/oplus/ivan/proprietary/odm/lib64/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.nfc@1.0.so \
-    vendor/oplus/ivan/proprietary/odm/lib64/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.nfc@1.1.so \
-    vendor/oplus/ivan/proprietary/odm/lib64/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.nfc@1.2.so \
     vendor/oplus/ivan/proprietary/odm/etc/init/init.vendor.oplus.connectivity.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.vendor.oplus.connectivity.rc \
     vendor/oplus/ivan/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oplus/ivan/proprietary/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger@1.0-service.rc \
@@ -4416,7 +4413,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
-    vendor/oplus/ivan/proprietary/system/etc/permissions/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.nfc_extras.xml \
     vendor/oplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
 
 PRODUCT_PACKAGES += \
@@ -4434,7 +4430,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     ImsService \
-    com.android.nfc_extras \
     mediatek-wfo-legacy \
     oplus-framework-telephony \
     oplus-framework \
