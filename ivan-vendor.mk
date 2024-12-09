@@ -918,6 +918,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/ivan/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/oplus/ivan/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/oplus/ivan/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
+    vendor/oplus/ivan/proprietary/vendor/etc/init/hw/init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.common.rc \
+    vendor/oplus/ivan/proprietary/vendor/etc/init/hw/init_conninfra.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init_conninfra.rc \
     vendor/oplus/ivan/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/oplus/ivan/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
     vendor/oplus/ivan/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
